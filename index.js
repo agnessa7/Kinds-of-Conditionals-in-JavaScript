@@ -1,16 +1,15 @@
 function isPip(slime){
   if (slime === 'pip'){
-    return 'Good morning Pip!' //Lines 1-3 Just an If statement
+    return 'Good morning Pip!' 
   } else if(typeof slime === 'string'){
-      return `Good day   
-       ${slime}!`
+      return `Good day ${slime}!`
   } else {
       return 'Sorry, something went wrong! Please enter a valid slime name.'
   }
 }
 function isDucky(bird){
   bird === 'ducky'?'Hi Ducky, you are cute!' :`Hi ${bird}!`
-}//Ternary lines 11-13
+}
 function isPoogie(pig){
   switch(pig){
     case 'poogie':
@@ -20,7 +19,12 @@ function isPoogie(pig){
     default:
       return `Hi ${pig}!`
   }
-}//Switch lines 14-23
+}
+
+
+console.log('Hello there traveler! please feel free to try out the functions in the console!!!')
 
 //in the console type the function name('') ex: isPip('pip') to get started!
-console.log('Hello there traveler! please feel free to try out the functions in the console!!!')
+//Lines 1-3 Just an If statement
+//Ternary lines 11-13
+//Switch lines 14-23
